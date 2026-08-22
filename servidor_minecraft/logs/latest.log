@@ -1,0 +1,217 @@
+[03:09:06] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[03:09:07] [main/INFO]: Loading 12 mods:
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 7.0.3
+	- java 21
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- lithium 0.15.4+mc1.21.1
+	- minecraft 1.21.1
+	- modernfix 5.25.1+mc1.21.1
+	- noisium 2.7.0+mc1.21-1.21.1
+	- skinrestorer 2.10.0+1.21-fabric
+	   \-- org_mineskin_java-client 3.4.0
+[03:09:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/jubilant-octo-enigma/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:09:07] [main/INFO]: Compatibility level set to JAVA_17
+[03:09:07] [main/INFO]: Compatibility level set to JAVA_21
+[03:09:07] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[03:09:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[03:09:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[03:09:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[03:09:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[03:09:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[03:09:07] [main/INFO]: Loaded configuration file for Lithium: 150 options available, 0 override(s) found
+[03:09:07] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[03:09:07] [main/INFO]: Applying Nashorn fix
+[03:09:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[03:09:10] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[03:09:13] [main/INFO]: Vanilla bootstrap took 4138 milliseconds
+[03:09:13] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[03:09:13] [main/INFO]: Loading Noisium.
+[03:09:14] [main/WARN]: fabric-api is not loaded, SkinShuffle compatibility will not be available
+[03:09:14] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[03:09:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:09:16] [main/INFO]: Loaded 1290 recipes
+[03:09:16] [main/INFO]: Loaded 1399 advancements
+[03:09:16] [main/WARN]: Initial datapack load took 2.008 s
+[03:09:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:09:16] [Server thread/INFO]: Loading properties
+[03:09:16] [Server thread/INFO]: Default game type: SURVIVAL
+[03:09:16] [Server thread/INFO]: Generating keypair
+[03:09:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:09:16] [Server thread/INFO]: Using epoll channel type
+[03:09:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:09:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:09:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:09:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:09:16] [Server thread/INFO]: Preparing level "world"
+[03:09:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:09:17] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[03:09:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:09:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[03:09:18] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[03:09:18] [Server thread/INFO]: Time elapsed: 1186 ms
+[03:09:18] [Server thread/INFO]: Done (1.544s)! For help, type "help"
+[03:09:18] [Server thread/WARN]: Dedicated server took 22.095 seconds to load
+[03:09:18] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[03:10:09] [Server thread/INFO]: xXSkubiXx[/192.168.194.152:31579] logged in with entity id 39 at (30.69999998807907, 64.0, 62.756480206211705)
+[03:10:09] [Server thread/INFO]: xXSkubiXx joined the game
+[03:11:21] [SkinRestorer-Fetch-2/WARN]: Failed to fetch skin 'mojang:golosa.694k'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:141) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:43) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:74) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:40) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:17) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:52) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md84104b$skinrestorer$lambda$skinrestorer$fetchSkin$3$1(class_3248.java:1141) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1141) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md84104b$skinrestorer$lambda$waitForSkin$0$4(class_3248.java:1097) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[03:11:22] [Server thread/INFO]: golosa.694k[/192.168.194.116:54052] logged in with entity id 540 at (219.30000001192093, 64.0, -4.317542941329747)
+[03:11:22] [Server thread/INFO]: golosa.694k joined the game
+[03:14:06] [Server thread/INFO]: Teleported golosa.694k to xXSkubiXx
+[03:14:59] [Server thread/INFO]: [xXSkubiXx: No skin changes]
+[03:15:11] [Server thread/ERROR]: Failed to set skin 'ely.by:xXSkubiXx'
+java.util.concurrent.CompletionException: no profile with name xxskubixx
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.mixinextras$bridge$method_18857$259(MinecraftServer.java) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.wrapOperation$zjl000$modernfix$managedBlock(MinecraftServer.java:2123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: no profile with name xxskubixx
+	at knot/net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:73) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 17 more
+Caused by: java.lang.IllegalArgumentException: no profile with name xxskubixx
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.ElyBySkinProvider.getElyByProfile(ElyBySkinProvider.java:64) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.ElyBySkinProvider.loadSkin(ElyBySkinProvider.java:49) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.ElyBySkinProvider.loadSkin(ElyBySkinProvider.java:19) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider$1.load(AbstractSkinProvider.java:43) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider$1.load(AbstractSkinProvider.java:40) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3571) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2313) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2190) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2080) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache.get(LocalCache.java:4012) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013) ~[guava-32.1.2-jre.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:53) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:63) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:63) ~[skinrestorer-2.10.0+1.21-fabric.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	... 1 more
+[03:30:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-9, y=75, z=4}
+[03:30:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-10, y=75, z=4}
+[03:30:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=4}
+[03:30:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-4, y=74, z=10}
+[03:30:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-4, y=74, z=10}
+[03:30:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=4}
+[03:30:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=4}
+[03:30:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=4}
+[03:30:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=4}
+[03:30:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-11, y=70, z=-6}
+[03:30:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-11, y=70, z=-9}
+[03:30:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-11, y=69, z=-13}
+[03:30:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-6, y=72, z=-1}
+[03:30:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-5, y=72, z=-1}
+[03:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=73, z=6}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=73, z=7}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=73, z=7}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=73, z=7}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-5, y=74, z=8}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-6, y=74, z=9}
+[03:30:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-6, y=74, z=9}
+[03:30:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=73, z=6}
+[03:30:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-29, y=78, z=-2} class_2338{x=-4, y=73, z=9}
+[03:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=75, z=12}
+[03:30:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=74, z=10}
+[03:30:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-5, y=74, z=8}
+[03:30:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-6, y=74, z=8}
+[03:30:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-6, y=74, z=8}
+[03:31:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-6, y=75, z=11}
+[03:31:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-23, y=78, z=2} class_2338{x=-9, y=75, z=10}
+[03:32:40] [Server thread/INFO]: golosa.694k was slain by Zombie
+[03:32:54] [Server thread/INFO]: xXSkubiXx has made the advancement [Acquire Hardware]
+[03:40:04] [Server thread/INFO]: golosa.694k has made the advancement [Getting an Upgrade]
+[03:40:37] [Server thread/INFO]: golosa.694k has made the advancement [Stone Age]
+[03:40:54] [Server thread/INFO]: xXSkubiXx has made the advancement [Isn't It Iron Pick]
+[03:44:17] [Server thread/INFO]: golosa.694k has made the advancement [Isn't It Iron Pick]
+[03:46:16] [Server thread/INFO]: golosa.694k was slain by Zombie
+[03:48:04] [Server thread/INFO]: Made xXSkubiXx a server operator
+[03:48:10] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Creative Mode]
+[03:48:31] [Server thread/INFO]: [xXSkubiXx: Teleported golosa.694k to xXSkubiXx]
+[03:48:51] [Server thread/INFO]: golosa.694k was slain by Zombie
+[03:49:25] [Server thread/INFO]: [xXSkubiXx: Teleported golosa.694k to xXSkubiXx]
+[03:50:18] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Survival Mode]
+[03:51:38] [Server thread/INFO]: xXSkubiXx has made the advancement [Diamonds!]
+[03:53:30] [Server thread/INFO]: [xXSkubiXx: Set the time to 1000]
+[03:53:49] [Server thread/INFO]: [xXSkubiXx: Set the weather to clear]
+[03:58:15] [Server thread/INFO]: [xXSkubiXx: Teleported xXSkubiXx to golosa.694k]
+[04:05:41] [Server thread/INFO]: xXSkubiXx was doomed to fall by Zombie
+[04:05:57] [Server thread/INFO]: [xXSkubiXx: Teleported xXSkubiXx to golosa.694k]
+[04:08:11] [Server thread/INFO]: xXSkubiXx has made the advancement [Take Aim]
+[04:09:25] [Server thread/INFO]: xXSkubiXx was slain by Zombie
+[04:10:33] [Server thread/INFO]: [xXSkubiXx: Teleported xXSkubiXx to golosa.694k]
+[04:17:20] [Server thread/INFO]: golosa.694k has made the advancement [Acquire Hardware]
+[04:19:13] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Creative Mode]
+[04:19:44] [Server thread/INFO]: golosa.694k has made the advancement [Suit Up]
+[04:20:20] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Survival Mode]
+[04:20:30] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Creative Mode]
+[04:21:20] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Survival Mode]
+[04:25:44] [Server thread/INFO]: golosa.694k has made the advancement [Sweet Dreams]
+[04:25:59] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Creative Mode]
+[04:26:04] [Server thread/INFO]: xXSkubiXx has made the advancement [Sweet Dreams]
+[04:26:13] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Survival Mode]
+[04:26:29] [Server thread/INFO]: [Not Secure] <golosa.694k> eskuby puta
+[04:26:54] [Server thread/INFO]: [Not Secure] [Server] callese puto
+[04:28:59] [Server thread/INFO]: [xXSkubiXx: Teleported xXSkubiXx to golosa.694k]
+[04:38:45] [Server thread/INFO]: [xXSkubiXx: Teleported xXSkubiXx to golosa.694k]
+[04:41:27] [Server thread/INFO]: xXSkubiXx has made the advancement [Not Today, Thank You]
+[04:41:57] [Server thread/INFO]: xXSkubiXx has made the advancement [Best Friends Forever]
+[04:45:34] [Server thread/INFO]: xXSkubiXx has made the advancement [The Parrots and the Bats]
+[04:48:05] [Server thread/INFO]: [xXSkubiXx: Teleported golosa.694k to xXSkubiXx]
+[04:49:16] [Server thread/INFO]: [xXSkubiXx: Set golosa.694k's game mode to Creative Mode]
+[04:49:16] [Server thread/INFO]: [xXSkubiXx: Set own game mode to Creative Mode]
+[06:01:08] [Server thread/WARN]: golosa.694k moved too quickly! -9.14047853312718,0.0,-4.311280911762424
+[06:08:39] [Server thread/INFO]: golosa.694k lost connection: Disconnected
+[06:08:39] [Server thread/INFO]: golosa.694k left the game
+[06:08:40] [Server thread/INFO]: xXSkubiXx lost connection: Disconnected
+[06:08:40] [Server thread/INFO]: xXSkubiXx left the game
+[06:09:09] [Server thread/INFO]: Stopping the server
+[06:09:09] [Server thread/INFO]: Stopping server
+[06:09:09] [Server thread/INFO]: Saving players
+[06:09:09] [Server thread/INFO]: Saving worlds
+[06:09:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:09:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:09:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:09:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:09:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:09:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:09:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
